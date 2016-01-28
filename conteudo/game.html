@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animacoes.css">
+	<link rel="stylesheet" href="css/tempos_animacoes.css">
+</head>
+<body>
+	
+<!-- HTML DO OED AQUI -->
+<div class="OED">
+	<img src="./img/inicial_painel_fundo_trapezio.jpg" class="visibility:hidden" />
+	<img src="./img/inicial_painel_fundo_quadrado.jpg" class="visibility:hidden" />
+	<img src="./img/inicial_painel_fundo_losango.jpg" class="visibility:hidden" />
+	<img src="./img/inicial_painel_fundo_retangulo.jpg" class="visibility:hidden" />
+	<img src="./img/inicial_painel_fundo_paralelogramo.jpg" class="visibility:hidden" />
+
+
+	<!-- Tela inicial -->
+	<div id="inicial_cobertura"></div>
+	<div id="inicial_cobertura_2"></div>
+	<div id="inicial_fundo_area" class="animacao_movimento_caverna">
+		<div id="inicial_fundo" class="animacao_passos_caverna"></div>
+	</div>
+	<div id="inicial_area_elementos">
+		<div id="inicial_painel_fundo"></div>
+		<div id="inicial_painel">
+			<div id="inicial_painel_texto">
+				Finalmente! Entrei na caverna.<br /><br />Diz a lenda que preciso atravessar três portas para chegar ao tesouro.<br /><br />O sábio do vilarejo disse que as portas testarão meus conhecimentos de quadriláteros.<br /><br />Preciso chegar ao tesouro!
+			</div>
+			<div id="inicial_btn_jogar">Jogar</div>
+		</div>
+		<div id="inicial_painel_explica">
+			<div id="inicial_painel_explica_texto">
+				Para abrir as portas preciso usar estas 5 chaves. Todas elas são iguais, exceto por este ornamento de forma geométrica. Acredito que a resposta para cada enigma é uma destas formas presentes nas chaves.
+			</div>
+			
+		</div>
+		<div id="inicial_btn_continuar">Continuar</div>
+		<!-- Grupo de chaves da tela inicial -->
+		<div id="inicial_chaves_formatos"></div>
+	</div>
+	<!-- Fim da tela inicial -->
+	<!-- Tela de exercícios -->
+	<div id="exercicios_area">
+		<div id="exercicios_painel">
+			<div id="exercicios_texto">
+				<span id="exercicios_texto_1">Para abrir esta porta preciso do quadrilátero que tem 1 par de lados opostos e paralelos, mas os outros dois lados podem não ser paralelos.</span>
+				<span id="exercicios_texto_2">Para abrir esta porta preciso do quadrilátero que tem os 4 lados com a mesma medida e os 4 ângulos retos.</span>			
+				<span id="exercicios_texto_3">Para abrir esta porta preciso do quadrilátero que tem os 4 lados com a mesma medida, mas os ângulos podem não ser retos.</span>			
+				<span id="exercicios_texto_4">Para abrir esta porta preciso do quadrilátero que tem os 4 ângulos retos e os lados paralelos com medidas iguais, mas não necessariamente <b>todos</b> os 4 lados de mesma medida.</span>
+				<span id="exercicios_texto_5">Para abrir esta porta preciso do quadrilátero que tem 2 pares de lados paralelos e os lados opostos com medidas iguais, mas não necessariamente <b>todos</b> os 4 lados iguais nem ângulos retos.</span>
+			</div>
+			<!-- Alternativas -->
+			<div id="exercicios_btn_alternativa_a_cobertura"></div>
+			<div id="exercicios_btn_alternativa_a">A
+				<div id="exercicios_rotulo_alternativa_a">trapézio</div>
+				<div id="exercicios_alternativa_marca1_erro_a"></div>
+				<div id="exercicios_alternativa_marca2_erro_a"></div>
+			</div>
+			<div id="exercicios_btn_alternativa_b_cobertura"></div>
+			<div id="exercicios_btn_alternativa_b">B
+				<div id="exercicios_rotulo_alternativa_b">quadrado</div>
+				<div id="exercicios_alternativa_marca1_erro_b"></div>
+				<div id="exercicios_alternativa_marca2_erro_b"></div>				
+			</div>
+			<div id="exercicios_btn_alternativa_c_cobertura"></div>
+			<div id="exercicios_btn_alternativa_c">C
+				<div id="exercicios_rotulo_alternativa_c">losango</div>
+				<div id="exercicios_alternativa_marca1_erro_c"></div>
+				<div id="exercicios_alternativa_marca2_erro_c"></div>				
+			</div>
+			<div id="exercicios_btn_alternativa_d_cobertura"></div>
+			<div id="exercicios_btn_alternativa_d">D
+				<div id="exercicios_rotulo_alternativa_d">retângulo</div>
+				<div id="exercicios_alternativa_marca1_erro_d"></div>
+				<div id="exercicios_alternativa_marca2_erro_d"></div>				
+			</div>
+			<div id="exercicios_btn_alternativa_e_cobertura"></div>
+			<div id="exercicios_btn_alternativa_e">E
+				<div id="exercicios_rotulo_alternativa_e">paralelogramo</div>
+				<div id="exercicios_alternativa_marca1_erro_e"></div>
+				<div id="exercicios_alternativa_marca2_erro_e"></div>				
+			</div>			
+		</div>
+		<div id="exercicios_painel_tentativas">Tentativas
+			<div id="exercicios_tentativas_icone1"></div>
+			<div id="exercicios_tentativas_icone2"></div>
+			<div id="exercicios_tentativas_icone3"></div>
+		</div>
+		<!-- Painel de devolutiva de erro -->
+		<div id="exercicios_painel_erro">
+		
+			<div id="exercicios_texto_erro">Oh não!<br /><br />Não é esse o quadrilátero que abre essa porta.<br /><br /></div>
+			<div id="exercicio_erro_continuar">Continuar</div>
+		
+		</div>
+	
+	</div>
+	<!-- Fim da tela de exercícios -->	
+	<!-- Tela de devolutiva de acertos -->
+	<div id="devolutiva_fade_branco"></div>
+	<div id="devolutiva_cobertura"></div>
+	<div id="devolutiva_cobertura_macaneta"></div>
+	<div id="devolutiva_area">
+		<div id="devolutiva_cobertura"></div>
+		<div id="devolutiva_chave_trapezio"></div>
+		<div id="devolutiva_chave_quadrado"></div>
+		<div id="devolutiva_chave_losango"></div>
+		<div id="devolutiva_chave_retangulo"></div>
+		<div id="devolutiva_chave_paralelogramo"></div>
+		<!-- Camadas para chaves quebradas -->
+		<div id="devolutiva_quebra_fundo">
+			<div id="devolutiva_chave_trapezio_quebrada"></div>
+			<div id="devolutiva_chave_quadrado_quebrada"></div>
+			<div id="devolutiva_chave_losango_quebrada"></div>
+			<div id="devolutiva_chave_retangulo_quebrada"></div>
+			<div id="devolutiva_chave_paralelogramo_quebrada"></div>
+		</div>
+		
+		
+		
+		
+	</div>
+	<!-- Fim da tela de devolutiva de acertos -->	
+	<!-- Tela de conclusão: erros -->
+	<div id="conclusao_erros">
+		<div id="conclusao_erros_fundo"></div>
+		<div id="conclusao_erros_sombra"></div>
+		<div id="conclusao_erros_painel">
+			<div id="conclusao_erros_texto">
+				Ainda restam portas trancadas e já não tenho chaves o bastante para abri-las…<br /><br />Terei que retornar ao vilarejo para que o ferreiro conserte as chaves quebradas.
+			</div>
+			<div id="conclusao_erros_btn_reiniciar">Reiniciar</div>
+		</div>
+	</div>
+	<!-- Tela de conclusão: acertos -->
+	<div id="conclusao_acertos">
+		<div id="conclusao_acertos_fundo"></div>
+		<div id="conclusao_acertos_sombra"></div>
+		<div id="conclusao_acertos_painel">
+			<div id="conclusao_acertos_texto">
+				Consegui!<br /><br />Venci os enigmas da caverna e encontrei o tesouro!<br /><br />Agora todo o vilarejo poderá desfrutar desse tesouro inestimável.
+			</div>
+			<div id="conclusao_acertos_btn_reiniciar">Reiniciar</div>
+		</div>	
+	
+	
+	</div>	
+
+</div>
+<!-- HTML DO OED AQUI -->
+
+
+	<!-- CARREGAMENTO DE SCRIPTS -->
+	<script>
+		function iniciar_oed_frame(){
+			//alert("iniciar_oed_frame");
+			iniciar_com_tap();
+		}	
+	</script>	
+	<script type="text/javascript" src="../js/carrega_oed.js"></script>
+	<script type="text/javascript" src="js/funcoes.js"></script>	
+</body>	
+</html>

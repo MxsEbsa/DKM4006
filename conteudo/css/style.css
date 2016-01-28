@@ -1,0 +1,871 @@
+/* SEU CSS AQUI */
+body{
+	background:#000000;	
+}
+/* Tela inicial */
+#inicial_cobertura, #inicial_cobertura_2{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:100;
+	background:#000000;		
+}
+#inicial_cobertura_2{
+	background-color: rgba(255, 255, 255, 0);
+	background: rgba(255, 255, 255, 0);
+	display:none;
+}
+#inicial_fundo_area{
+	position:absolute;
+	width:4200px;
+	height:1611px;
+	left:-1px;
+	top:-1px;
+	z-index:1;
+	display:none;
+}
+#inicial_fundo{
+	position:absolute;
+	width:4200px;
+	height:1611px;
+	left:-1px;
+	/*top:-40px;*/
+	z-index:1;
+	background-image: url("../img/inicial_fundo.jpg");
+	background-repeat: repeat;
+	/*background-size:cover;*/
+	background-position: 0px -870px;
+	display:none;
+}
+#inicial_area_elementos{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:10;
+}
+#inicial_fundo{
+	position:absolute;
+	width:4284px;
+	height:1644px;
+	left:-1px;
+	top:-40px;
+	z-index:1;
+	background-image: url("../img/inicial_fundo.jpg");
+	background-repeat: repeat;
+	/*background-size:cover;*/
+	background-position: 0px -930px;
+}
+#inicial_painel{
+	position:absolute;
+	width:481px;
+	height:372px;
+	right:20px;
+	top:20px;
+	z-index:2;
+	background-image: url("../img/inicial_painel.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+}
+#inicial_painel_fundo{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	right:-1px;
+	top:-1px;
+	z-index:1;
+	background-image: url("../img/inicial_painel_fundo.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+	display:inherit;
+}
+#inicial_painel_texto{
+	position:absolute;
+	width:348px;
+	height:246px;
+	right:81px;
+	top:58px;
+	z-index:3;
+	color:#000000;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:25px;
+    line-height:100%;
+    text-align:center;
+    font-weight:normal;	
+}
+#inicial_btn_jogar{
+	position:absolute;
+	width:205px;
+	height:87px;
+	right:164px;
+	bottom:-43px;
+	z-index:4;
+	background-image: url("../img/inicial_btn_jogar.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+	color:#512B04;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:33px;
+    line-height:83px;
+    text-align:center;
+    font-weight:bold;
+	text-shadow: 1px 1px 5px #70480E;
+	cursor:pointer;
+}
+#inicial_painel_explica{
+	position:absolute;
+	width:480px;
+	height:461px;
+	right:20px;
+	top:20px;
+	z-index:8;
+	background-image: url("../img/inicial_painel_explica.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+	display:none;
+}
+#inicial_painel_explica_texto{
+	position:absolute;
+    width:341px;
+    height:166px;
+    right:67px;
+    top:62px;
+    z-index:1;
+    color:#000000;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:23px;
+    line-height:117%;
+    text-align:left;
+    font-weight:normal;
+}
+#inicial_btn_continuar{
+	position:absolute;
+	width:205px;
+	height:87px;
+	right:165px;
+	top:415px;
+	z-index:11;
+	background-image: url("../img/inicial_btn_continuar.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+	color:#512B04;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:33px;
+    line-height:83px;
+    text-align:center;
+    font-weight:bold;
+	text-shadow: 1px 1px 5px #70480E;
+	cursor:pointer;
+	display:none;
+}
+
+#inicial_chaves_formatos{
+	position:absolute;
+	background-size:cover;
+	background-position: center center;
+	z-index:9;
+	display:none;
+	width:334px;
+	height:203px;
+	right:104px;
+	top:250px;
+	background-image: url("../img/inicial_chaves_formatos.png");
+	display:none;
+}
+
+
+/* Tela de exercícios */
+#exercicios_area{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:20;
+	/*background:#333;
+	background-image: url("../img/inicial_painel_fundo.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;*/
+	display:none;	
+}
+
+#exercicios_painel{
+	position:absolute;
+	width:504px;
+	height:440px;
+	right:16px;
+	top:16px;
+	z-index:2;
+	background-image: url("../img/exercicios_painel.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+}
+#exercicios_texto{
+	position:absolute;
+    width:370px;
+    height:140px;
+    left:64px;
+    top:58px;
+    z-index:1;
+    color:#000000;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:24px;
+    line-height:120%;
+    text-align:center;
+    font-weight:normal;
+}
+#exercicios_texto_1, #exercicios_texto_2, #exercicios_texto_3, #exercicios_texto_4, #exercicios_texto_5 {
+	display:none;
+}
+#exercicios_texto_1{
+	position:absolute;
+	top:15px;
+	font-size:25px;
+}
+#exercicios_texto_2{
+	position:absolute;
+	top:28px;
+	font-size:25px;
+}
+#exercicios_texto_3{
+	position:absolute;
+	top:17px;
+	font-size:26px;
+}
+#exercicios_texto_4{
+	position:absolute;
+	top:4px;
+	font-size:24px;
+}
+#exercicios_texto_5{
+	position:absolute;
+	top:2px;
+	font-size:23px;
+}
+
+#exercicios_btn_alternativa_a, #exercicios_btn_alternativa_b, #exercicios_btn_alternativa_c, #exercicios_btn_alternativa_d, #exercicios_btn_alternativa_e{
+	position:absolute;
+	z-index:2;
+	background-size:cover;
+	background-position: 0px 0px;
+	color:#ffffff;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:21px;
+    text-align:left;
+	line-height:40px;
+	text-indent:10px;
+    font-weight:bold;
+	text-shadow: 4px 4px 4px #000000;
+	cursor:pointer;
+	display:none;
+}
+#exercicios_alternativa_marca1_erro_a, #exercicios_alternativa_marca1_erro_b, #exercicios_alternativa_marca1_erro_c, #exercicios_alternativa_marca1_erro_d, #exercicios_alternativa_marca1_erro_e{
+	position:absolute;
+	width:40px;
+	height:40px;
+	left:-3px;
+	top:3px;
+	z-index:4;
+	background-image: url("../img/exercicios_alternativa_marca1_erro.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+	display:none;
+}
+#exercicios_alternativa_marca2_erro_a, #exercicios_alternativa_marca2_erro_b, #exercicios_alternativa_marca2_erro_c, #exercicios_alternativa_marca2_erro_d, #exercicios_alternativa_marca2_erro_e{
+	position:absolute;
+	width:40px;
+	height:40px;
+	left:-3px;
+	top:3px;
+	z-index:4;
+	background-image: url("../img/exercicios_alternativa_marca2_erro.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+	display:none;
+}
+#exercicios_btn_alternativa_a{
+	width:138px;
+	height:43px;
+	left:98px;
+	top:226px;
+	background-image: url("../img/exercicios_btn_alternativa_a.png");
+}
+#exercicios_btn_alternativa_a_cobertura{
+	position:absolute;
+	width:138px;
+	height:43px;
+	left:98px;
+	top:226px;
+	background-color: rgba(255, 255, 255, 0);
+	background: rgba(255, 255, 255, 0);
+	display:none;
+	z-index:999;
+}
+#exercicios_btn_alternativa_b{
+	width:150px;
+	height:43px;
+	left:98px;
+	top:283px;
+	background-image: url("../img/exercicios_btn_alternativa_b.png");
+	text-indent:12px;
+}
+#exercicios_btn_alternativa_b_cobertura{
+	position:absolute;
+	width:150px;
+	height:43px;
+	left:98px;
+	top:283px;
+	background-color: rgba(255, 255, 255, 0);
+	background: rgba(255, 255, 255, 0);
+	display:none;
+	z-index:999;
+}
+#exercicios_btn_alternativa_c{
+	width:133px;
+	height:43px;
+	left:98px;
+	top:341px;
+	background-image: url("../img/exercicios_btn_alternativa_c.png");
+}
+#exercicios_btn_alternativa_c_cobertura{
+	position:absolute;
+	width:133px;
+	height:43px;
+	left:98px;
+	top:341px;
+	background-color: rgba(255, 255, 255, 0);
+	background: rgba(255, 255, 255, 0);
+	display:none;
+	z-index:999;
+}
+#exercicios_btn_alternativa_d{
+	width:149px;
+	height:43px;
+	left:264px;
+	top:245px;
+	background-image: url("../img/exercicios_btn_alternativa_d.png");
+}
+#exercicios_btn_alternativa_d_cobertura{
+	position:absolute;
+	width:149px;
+	height:43px;
+	left:264px;
+	top:245px;
+	background-color: rgba(255, 255, 255, 0);
+	background: rgba(255, 255, 255, 0);
+	display:none;
+	z-index:999;
+}
+#exercicios_btn_alternativa_e{
+	width:192px;
+	height:43px;
+	left:264px;
+	top:303px;
+	background-image: url("../img/exercicios_btn_alternativa_e.png");
+	text-indent:12px;
+}
+#exercicios_btn_alternativa_e_cobertura{
+	position:absolute;
+	width:192px;
+	height:43px;
+	left:264px;
+	top:303px;
+	background-color: rgba(255, 255, 255, 0);
+	background: rgba(255, 255, 255, 0);
+	display:none;
+	z-index:999;
+}
+#exercicios_rotulo_alternativa_a, #exercicios_rotulo_alternativa_b, #exercicios_rotulo_alternativa_c, #exercicios_rotulo_alternativa_d, #exercicios_rotulo_alternativa_e{
+	position:absolute;
+    z-index:2;
+    left:44px;
+    top:0px;
+    background-size:cover;
+    background-position:0px 0px;
+	color:#000000;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:23px;
+    line-height:42px;
+    text-align:left;
+    text-indent:0px;
+    font-weight:normal;
+    text-shadow:0px 0px 0px #ffffff;
+	/*text-decoration:line-through;
+	-webkit-text-decoration-color: red; 
+    text-decoration-color: red;
+	-moz-text-decoration-color: red;*/
+}
+#exercicios_painel_tentativas{
+	position:absolute;
+	width:175px;
+	height:172px;	
+	left:-3px;
+	bottom:-3px;
+	z-index:8;
+	background-image: url("../img/exercicios_painel_tentativas.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+	color:#ffffff;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:21px;
+    line-height:47px;
+    text-align:center;
+    font-weight:normal;
+	text-shadow: 2px 2px 3px #000000;
+	cursor:default;
+}
+#exercicios_tentativas_icone1, #exercicios_tentativas_icone2, #exercicios_tentativas_icone3{
+	position:absolute;
+	width:56px;
+	height:102px;	
+	top:51px;
+	z-index:3;
+	background-image: url("../img/exercicios_tentativas_icone.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;	
+}
+
+#exercicios_tentativas_icone1{
+	left:10px;
+}
+#exercicios_tentativas_icone2{
+	left:59px;
+	top:54px;
+}
+#exercicios_tentativas_icone3{
+	left:107px;
+	top:54px;
+}
+#exercicios_painel_erro{
+	position:absolute;
+	width:496px;
+	height:273px;
+	right:48px;
+	top:160px;
+	z-index:9;
+	background-image: url("../img/exercicios_painel_erro.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+	display:none;
+}
+#exercicios_texto_erro{
+	position:absolute;
+    width:372px;
+    height:178px;
+    left:80px;
+    top:58px;
+    z-index:1;
+    color:#000000;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:30px;
+    line-height:120%;
+    text-align:center;
+    font-weight:bold;
+}
+#exercicio_erro_continuar{
+	position:absolute;
+	width:205px;
+	height:87px;
+	right:140px;
+	top:225px;
+	z-index:11;
+	background-image: url("../img/inicial_btn_continuar.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+	color:#512B04;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:33px;
+    line-height:83px;
+    text-align:center;
+    font-weight:bold;
+	text-shadow: 1px 1px 5px #70480E;
+	cursor:pointer;
+	display:inherit;
+}
+/* Tela de animações para devolutivas */
+#devolutiva_fade_branco{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:50;
+	background:#ffffff;
+	display:none;	
+}
+#devolutiva_quebra_fundo{
+	position:absolute;
+	width:420px;
+	height:470px;
+	left:0px;
+	top:0px;
+	z-index:40;
+	background-image:url("../img/devolutiva_quebra_fundo.jpg");
+	background-repeat:no-repeat;
+	background-size:auto;
+	background-position:0px 0px;
+	display:none;
+}
+#devolutiva_chave_trapezio_quebrada{
+	position:absolute;
+	width:80px;
+	height:88px;
+	left:295px;
+	top:314px;
+	z-index:1;
+	background-image: url("../img/devolutiva_chave_trapezio_quebrada.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+	display:none;
+}
+#devolutiva_chave_losango_quebrada{
+	position:absolute;
+	width:78px;
+	height:83px;
+	left:296px;
+	top:315px;
+	z-index:1;
+	background-image: url("../img/devolutiva_chave_losango_quebrada.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+	display:none;
+}
+#devolutiva_chave_paralelogramo_quebrada{
+	position:absolute;
+	width:90px;
+	height:90px;
+	left:296px;
+	top:312px;
+	z-index:1;
+	background-image: url("../img/devolutiva_chave_paralelogramo_quebrada.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+	display:none;
+}
+#devolutiva_chave_quadrado_quebrada{
+	position:absolute;
+	width:80px;
+	height:89px;
+	left:294px;
+	top:313px;
+	z-index:1;
+	background-image: url("../img/devolutiva_chave_quadrado_quebrada.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+	display:none;
+}
+#devolutiva_chave_retangulo_quebrada{
+	position:absolute;
+	width:80px;
+	height:89px;
+	left:293px;
+	top:312px;
+	z-index:1;
+	background-image: url("../img/devolutiva_chave_retangulo_quebrada.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+	display:none;
+}
+#devolutiva_area{
+	position:absolute;
+	width:1025px;
+	/*width:637px;*/
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:30;
+	/*background:#333;
+	opacity:0.4;
+	background-image: url("../img/inicial_painel_fundo.png");
+	background-repeat: repeat;
+	background-size:cover;
+    -webkit-transform: scale3d(1.35, 1.35, 1.35);
+    -ms-transform: scale3d(1.35, 1.35, 1.35);
+    transform: scale3d(1.35, 1.35, 1.35);
+	background-position: 30px 40px;	*/		
+	display:none;
+}
+#devolutiva_cobertura{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:120;
+	background:#000000;
+	display:none;
+}
+#devolutiva_cobertura_macaneta{
+	position:absolute;
+	width:112px;
+	height:314px;
+	left:144px;
+	top:154px;
+	z-index:40;
+	background-image: url("../img/devolutiva_cobertura_macaneta.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+	display:none;	
+}
+#devolutiva_chave_trapezio{
+	position:absolute;
+	width:240px;
+	height:103px;
+	left:170px;
+	top:266px;
+	z-index:2;
+	background-image: url("../img/devolutiva_chave_trapezio.png");
+	background-repeat: no-repeat;
+	background-size:auto 103px;
+	background-position: center center;
+	display:none;
+
+}
+#devolutiva_chave_quadrado{
+	position:absolute;
+	width:240px;
+	height:103px;
+	left:170px;
+	top:266px;
+	z-index:2;
+	background-image: url("../img/devolutiva_chave_quadrado.png");
+	background-repeat: no-repeat;
+	background-size:232px 103px;
+	background-position: center center;
+	display:none;
+
+}
+#devolutiva_chave_losango{
+	position:absolute;
+	width:240px;
+	height:103px;
+	left:170px;
+	top:266px;
+	z-index:2;
+	background-image: url("../img/devolutiva_chave_losango.png");
+	background-repeat: no-repeat;
+	background-size:232px 103px;
+	background-position: center center;
+	display:none;
+
+}
+
+#devolutiva_chave_retangulo{
+	position:absolute;
+	width:240px;
+	height:103px;
+	left:170px;
+	top:266px;
+	z-index:2;
+	background-image: url("../img/devolutiva_chave_retangulo.png");
+	background-repeat: no-repeat;
+	background-size:232px 103px;
+	background-position: center center;
+	display:none;
+
+}
+#devolutiva_chave_paralelogramo{
+	position:absolute;
+	width:240px;
+	height:103px;
+	left:170px;
+	top:266px;
+	z-index:2;
+	background-image: url("../img/devolutiva_chave_paralelogramo.png");
+	background-repeat: no-repeat;
+	background-size:232px 103px;
+	background-position: center center;
+	display:none;
+
+}
+/* Tela de conclusão */
+#conclusao_erros{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:40;
+	display:none;
+}
+#conclusao_erros_fundo{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:40;
+	background-image: url("../img/conclusao_erros.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: 0px 0px;
+}
+#conclusao_erros_sombra{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:2;
+	background:#000000;
+}
+#conclusao_erros_painel{
+	position:absolute;
+	width:483px;
+	height:301px;
+	right:20px;
+	top:20px;
+	z-index:90;
+	background-image: url("../img/conclusao_erros_painel.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+}
+#conclusao_erros_texto{
+    position:absolute;
+    width:304px;
+    height:246px;
+    right:84px;
+    top:56px;
+    z-index:4;
+    color:#000000;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:25px;
+    line-height:110%;
+    text-align:center;
+    font-weight:normal	
+}
+#conclusao_erros_btn_reiniciar{
+	position:absolute;
+	width:205px;
+	height:87px;
+	right:136px;
+	bottom:-43px;
+	z-index:5;
+	background-image: url("../img/conclusao_erros_btn_reiniciar.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+	color:#512B04;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:33px;
+    line-height:83px;
+    text-align:center;
+    font-weight:bold;
+	text-shadow: 1px 1px 5px #70480E;
+	cursor:pointer;
+}
+/*-*/
+#conclusao_acertos{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:40;
+	display:none;
+}
+#conclusao_acertos_fundo{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:40;
+	background-image: url("../img/conclusao_acertos.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: 0px 0px;
+}
+#conclusao_acertos_sombra{
+	position:absolute;
+	width:1025px;
+	height:661px;
+	left:-1px;
+	top:-1px;
+	z-index:2;
+	background:#000000;
+}
+#conclusao_acertos_painel{
+	position:absolute;
+	width:385px;
+	height:202px;
+	right:20px;
+	top:20px;
+	z-index:90;
+	background-image: url("../img/conclusao_acertos_painel.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+}
+#conclusao_acertos_texto{
+    position:absolute;
+    width:304px;
+    height:160px;
+    right:39px;
+    top:30px;
+    z-index:4;
+    color:#000000;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:22px;
+    line-height:90%;
+    text-align:center;
+    font-weight:bold;
+}
+#conclusao_acertos_btn_reiniciar{
+	position:absolute;
+	width:164px;
+	height:69px;
+	right:106px;
+	bottom:-43px;
+	z-index:5;
+	background-image: url("../img/conclusao_acertos_btn_reiniciar.png");
+	background-repeat: repeat;
+	background-size:cover;
+	background-position: center center;
+	color:#512B04;
+    font-family:'CronosPro-Regular', sans-serif;
+    font-size:30px;
+    line-height:68px;
+    text-align:center;
+    font-weight:bold;
+	text-shadow: 1px 1px 5px #70480E;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nada{}
