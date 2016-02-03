@@ -67,6 +67,13 @@ var startGame = {
 		/* if para detalhe de fontes nos tablets */
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			document.querySelector("#conclusao_acertos_texto").style.fontSize="20px";
+			document.querySelector("#grupo_imgs").style.display="none";
+			document.querySelector("#inicial_fundo_area").className="nada";
+			document.querySelector("#inicial_fundo").className="nada";
+			document.querySelector("#inicial_fundo").style.width="1024px";
+			document.querySelector("#inicial_fundo_area").style.top="36px";
+			document.querySelector("#inicial_fundo_area").style.width="1024px";
+			
 		}
 		//
 		sortear_exercicios();
@@ -132,6 +139,9 @@ $("#exercicios_btn_alternativa_a").click(function() {
 	//
 	document.querySelector("#inicial_cobertura").style.display="inherit";
 	document.querySelector("#inicial_painel_fundo").className="animacao_aproxima_porta";
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		document.querySelector("#inicial_painel_fundo").className="animacao_aproxima_porta_0s";
+	}
 	parar_todos_audios();
 	if(exercicios[exercicio_atual]==1)	{
 		acertos++;
@@ -206,6 +216,9 @@ $("#exercicios_btn_alternativa_b").click(function() {
 	//
 	document.querySelector("#inicial_cobertura").style.display="inherit";
 	document.querySelector("#inicial_painel_fundo").className="animacao_aproxima_porta";
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		document.querySelector("#inicial_painel_fundo").className="animacao_aproxima_porta_0s";
+	}	
 	parar_todos_audios();	
 	if(exercicios[exercicio_atual]==2)	{
 		acertos++;
@@ -326,6 +339,9 @@ $("#exercicios_btn_alternativa_c").click(function() {
 	//
 	document.querySelector("#inicial_cobertura").style.display="inherit";
 	document.querySelector("#inicial_painel_fundo").className="animacao_aproxima_porta";
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		document.querySelector("#inicial_painel_fundo").className="animacao_aproxima_porta_0s";
+	}	
 	parar_todos_audios();	
 	if(exercicios[exercicio_atual]==3){
 		acertos++;
@@ -406,6 +422,9 @@ $("#exercicios_btn_alternativa_d").click(function() {
 	//
 	document.querySelector("#inicial_cobertura").style.display="inherit";
 	document.querySelector("#inicial_painel_fundo").className="animacao_aproxima_porta";
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		document.querySelector("#inicial_painel_fundo").className="animacao_aproxima_porta_0s";
+	}	
 	parar_todos_audios();	
 	if(exercicios[exercicio_atual]==4)	{
 		acertos++;
@@ -478,6 +497,9 @@ $("#exercicios_btn_alternativa_e").click(function() {
 	//
 	document.querySelector("#inicial_cobertura").style.display="inherit";
 	document.querySelector("#inicial_painel_fundo").className="animacao_aproxima_porta";
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		document.querySelector("#inicial_painel_fundo").className="animacao_aproxima_porta_0s";
+	}	
 	parar_todos_audios();	
 	if(exercicios[exercicio_atual]==5)	{
 		acertos++;
